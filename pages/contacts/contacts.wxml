@@ -1,0 +1,9 @@
+<view class="container">
+  <!-- 通讯录列表 -->
+  <view class="contact-list">
+    <view class="contact-item" wx:for="{{contacts}}" wx:key="id">
+      <view class="contact-name">{{item.name}}</view>
+      <view class="contact-number">{{item.phone}}</view>
+    </view>
+  </view>
+</view>

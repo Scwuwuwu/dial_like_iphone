@@ -1,0 +1,38 @@
+<view class="container">
+  <!-- 显示输入的号码 -->
+  <view class="input-number">{{inputNumber}}</view>
+  <!-- 拨号键盘 -->
+  <view class="keypad">
+    <view class="row">
+      <view class="key" bindtap="onKeyTap" data-key="1">1</view>
+      <view class="key" bindtap="onKeyTap" data-key="2">2</view>
+      <view class="key" bindtap="onKeyTap" data-key="3">3</view>
+    </view>
+    <view class="row">
+      <view class="key" bindtap="onKeyTap" data-key="4">4</view>
+      <view class="key" bindtap="onKeyTap" data-key="5">5</view>
+      <view class="key" bindtap="onKeyTap" data-key="6">6</view>
+    </view>
+    <view class="row">
+      <view class="key" bindtap="onKeyTap" data-key="7">7</view>
+      <view class="key" bindtap="onKeyTap" data-key="8">8</view>
+      <view class="key" bindtap="onKeyTap" data-key="9">9</view>
+    </view>
+    <view class="row">
+      <view class="key" bindtap="onKeyTap" data-key="*">*</view>
+      <view class="key" bindtap="onKeyTap" data-key="0">0</view>
+      <view class="key" bindtap="onKeyTap" data-key="#">#</view>
+    </view>
+  </view>
+  <!-- 操作按钮组 -->
+  <view class="operation-buttons">
+    <!-- 拨号按钮 -->
+    <view class="call" bindtap="onCallTap">
+      <image src="/images/call.png"></image>
+    </view>
+     <!-- 删除按钮 -->
+     <view class="delete" bindtap="onDeleteTap">
+      <image src="/images/delete.png"></image>
+    </view>
+  </view>
+</view>

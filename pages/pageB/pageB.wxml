@@ -1,0 +1,5 @@
+<view class="{{number % 2 === 0 ? 'even' : 'odd'}}">
+{{number}}
+</view>
+
+

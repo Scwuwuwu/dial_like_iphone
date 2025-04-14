@@ -1,0 +1,5 @@
+<view class="pageA-container">
+  <text class="pageA-title">这是页面 A</text>
+  <!-- 可以根据需求添加更多组件 -->
+  <button bindtap="onButtonTap">点击我</button>
+</view>

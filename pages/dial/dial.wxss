@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.input-number {
+  height: 150px;
+  font-size: 48px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.keypad {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.key {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 32px;
+}
+
+/* 修改删除和拨号按钮容器样式 */
+.operation-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* 使按钮在容器中左右均匀分布 */
+  align-items: center;
+  margin-top: 20px; /* 增加与数字键盘的间距 */
+  padding: 0 20px; /* 左右增加内边距 */
+}
+
+.delete, .call {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px; /* 让按钮变成圆形 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete image, .call image {
+  width: 50%;
+  height: 50%;
+}

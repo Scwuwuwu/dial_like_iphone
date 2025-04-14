@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/dial/dial",
+        "pages/contacts/contacts",
+        "pages/pageA/pageA",
+        "pages/pageB/pageB"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "微信小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+          {
+            "pagePath": "pages/dial/dial",
+            "text": "拨号",
+            "iconPath": "images/dial_icon.png",
+            "selectedIconPath": "images/dial_icon.png"
+          },
+          {
+            "pagePath": "pages/contacts/contacts",
+            "text": "通讯录",
+            "iconPath": "images/contact_icon.png",
+            "selectedIconPath": "images/contact_icon.png"
+        },
+            {
+                "pagePath": "pages/pageA/pageA",
+                "text": "页面 A",
+                "iconPath": "images/pageA_icon.png",
+                "selectedIconPath": "images/pageA_icon.png"
+            },
+            {
+                "pagePath": "pages/pageB/pageB",
+                "text": "页面 B",
+                "iconPath": "images/pageB_icon.png",
+                "selectedIconPath": "images/pageB_icon.png"
+            }
+        ]
+    }
+}
